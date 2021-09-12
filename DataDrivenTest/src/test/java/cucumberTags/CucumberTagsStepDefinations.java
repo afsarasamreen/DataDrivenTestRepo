@@ -16,6 +16,7 @@ public class CucumberTagsStepDefinations {
 		System.setProperty("webdriver.chrome.driver","D:\\selniumfiles\\chromeDriver92\\chromedriver.exe" );
 	    driver=new ChromeDriver();
 	    driver.get("https://opensource-demo.orangehrmlive.com/index.php/auth/login");
+	     System.out.println("Hello world");
 	}
 
 	@When("^user enter username$")
